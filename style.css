@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #FAFAFA;
+}
+
+.p1 {
+    width: 80px;
+    height: 39px;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.57px;
+    color: #424242;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #a1a1a1;
+
+}
+
+.dv {
+    display: flex;
+    gap: 10px;
+
+}
+
+.box-top img {
+    width: 150px;
+    height: 40px;
+}
+
+.box {
+    width: 650px;
+    height: 786px;
+    background-color: white;
+    border: 1px solid #DEDBDB;
+    padding: 65px;
+    border-radius: 50px;
+    margin: 46px auto;
+}
+
+.box-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.box-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.box-right h2 {
+    color: #F0400F;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+}
+
+.box-right i {
+    color: #F0400F;
+    font-size: 25px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 1000;
+    line-height: 58.09px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #0E0D5D;
+    margin-top: 131px;
+}
+
+.parents {
+    width: 533px;
+    height: 70px;
+    background: #F5F5F5;
+    border-radius: 20px;
+    padding: 8px 11px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 35px;
+}
+
+.parents p {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 33.89px;
+    padding: 10px 40px;
+    border-radius: 15px;
+    background-color: white;
+    width: 255px;
+}
+
+.parents span {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 33.89px;
+    color: #757575;
+}
+
+input {
+    width: 533px;
+    height: 70px;
+    border-radius: 20px;
+    border: 1px solid #75757530;
+    background-color: #FAFAFA;
+    outline: none;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.05px;
+    padding: 21px 51px;
+    margin-top: 39px;
+}
+
+#eye {
+    font-size: 25px;
+    margin-left: -60px;
+}
+
+.p2 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.05px;
+    color: #000000A3;
+    text-align: center;
+    width: 247px;
+    height: 33px;
+    display: flex;
+    margin-left: 170px;
+    margin-top: 18px;
+}
+
+.btn {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    width: 202px;
+    height: 67px;
+    border-radius: 20px;
+    background-color: #F69E86;
+    color: white;
+    border: none;
+    margin-top: 25px;
+    margin-left: 330px
+}
